@@ -222,23 +222,23 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
 .run-buddy {
-  background-image: red;
+  background-image: url('../images/purple.jpg');
 }
 
 .led-wall {
-  
+  background-image: url('../images/red.webp');
 }
 
 .react-calc {
-  
+    background-image: url('../images/blue.jpg');
 }
 
 .pastel-puzzles {
-  
+    background-image: url('../images/green.jfif');
 }
 
 .surf-report {
-  
+  background-image: url('../images/Black.jfif');
 }
 
 /* media queries */
@@ -278,6 +278,8 @@ main {
 }
 /* TODO: add media query for a max-width of 768px */
 
-@media screen and (max-width: 768px) {
-  
+@media screen and (max-width: 768px) {  
+  .flex-item:first-child {
+    min-height: 150px;
+  }
 }
